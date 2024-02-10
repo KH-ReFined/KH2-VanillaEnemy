@@ -629,3 +629,199 @@ assets:
   method: copy
   source:
     - name: obj/V_MU120.a.us
+
+- name: raw/obj/V_BB100.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_BB100.a.us
+- name: raw/obj/V_CA000.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_CA000.a.us
+- name: raw/obj/V_CA050.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_CA050.a.us
+- name: raw/obj/V_EX010.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX010.a.us
+- name: raw/obj/V_EX010_NM.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX010_NM.a.us
+- name: raw/obj/V_EX050.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX050.a.us
+- name: raw/obj/V_EX060.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX060.a.us
+- name: raw/obj/V_EX200.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX200.a.us
+- name: raw/obj/V_EX200_NM.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX200_NM.a.us
+- name: raw/obj/V_EX500.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX500.a.us
+- name: raw/obj/V_EX500_HB.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX500_HB.a.us
+- name: raw/obj/V_EX500_NM.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX500_NM.a.us
+- name: raw/obj/V_EX510.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX510.a.us
+- name: raw/obj/V_EX520.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX520.a.us
+- name: raw/obj/V_EX520_AL.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX520_AL.a.us
+- name: raw/obj/V_EX530.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX530.a.us
+- name: raw/obj/V_EX540.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX540.a.us
+- name: raw/obj/V_EX550.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX550.a.us
+- name: raw/obj/V_EX560.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX560.a.us
+- name: raw/obj/V_EX570.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX570.a.us
+- name: raw/obj/V_EX590.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX590.a.us
+- name: raw/obj/V_EX620.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX620.a.us
+- name: raw/obj/V_EX620_AL.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX620_AL.a.us
+- name: raw/obj/V_EX630.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX630.a.us
+- name: raw/obj/V_EX640.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX640.a.us
+- name: raw/obj/V_EX650.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX650.a.us
+- name: raw/obj/V_EX670.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX670.a.us
+- name: raw/obj/V_EX690.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX690.a.us
+- name: raw/obj/V_EX710.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX710.a.us
+- name: raw/obj/V_EX720.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX720.a.us
+- name: raw/obj/V_EX730.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX730.a.us
+- name: raw/obj/V_EX750.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX750.a.us
+- name: raw/obj/V_EX750_NM.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX750_NM.a.us
+- name: raw/obj/V_EX780.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX780.a.us
+- name: raw/obj/V_EX790.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX790.a.us
+- name: raw/obj/V_EX790_HALLOWEEN.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX790_HALLOWEEN.a.us
+- name: raw/obj/V_EX790_HALLOWEEN_NM.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX790_HALLOWEEN_NM.a.us
+- name: raw/obj/V_LK120.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_LK120.a.us
+- name: raw/obj/V_MU120.a.ks
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_MU120.a.us
