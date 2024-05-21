@@ -5,6 +5,37 @@ assets:
 
 # === Enemy Models ===
 
+- name: obj/V_EX500_GM_MEMO.mset
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX500_GM_MEMO.mset
+- name: obj/V_EX500_HB_GM_MEMO.mset
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_EX500_HB_GM_MEMO.mset
+- name: obj/V_LK120_GM_MEMO.mset
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_LK120_GM_MEMO.mset
+- name: obj/V_MU120_GM_MEMO.mset
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_MU120_GM_MEMO.mset
+- name: obj/V_BB100_GM_MEMO.mset
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_BB100_GM_MEMO.mset
+- name: obj/V_CA050_GM_MEMO.mset
+  package: kh2_fifth
+  method: copy
+  source:
+    - name: obj/V_CA050_GM_MEMO.mset
+
 - name: raw/obj/V_BB100.mdlx
   package: kh2_fifth
   method: copy
