@@ -1,888 +1,548 @@
-title: Re:Fined - Vanilla Heartless Addon [KH2]
-originalAuthor: TopazTK
-description: The Vanilla Heartless Addon for Kingdom Hearts II - Re:Fined.
+title: Kingdom Hearts II - Re:Fined | Vanilla Heartless [Slot 1]
+originalAuthor: The Re:Fined Team
+description: The Vanilla Heartless Resource Pack [Slot 1] for Kingdom Hearts II - Re:Fined.
 assets:
-
-# === Journal Images === #
-
-- name: raw/menu/jmface_ps2tx0.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx0.imd
-- name: raw/menu/jmface_ps2tx1.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx1.imd
-- name: raw/menu/jmface_ps2tx2.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx2.imd
-- name: raw/menu/jmface_ps2tx3.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx3.imd
-- name: raw/menu/jmface_ps2tx4.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx4.imd
-- name: raw/menu/jmface_ps2tx5.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx5.imd
-- name: raw/menu/jmface_ps2tx6.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx6.imd
-- name: raw/menu/jmface_ps2tx7.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx7.imd
-- name: raw/menu/jmface_ps2tx8.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx8.imd
-- name: raw/menu/jmface_ps2tx9.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx9.imd
-- name: raw/menu/jmface_ps2tx10.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx10.imd
-- name: raw/menu/jmface_ps2tx11.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx11.imd
-- name: raw/menu/jmface_ps2tx12.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx12.imd
-- name: raw/menu/jmface_ps2tx13.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx13.imd
-- name: raw/menu/jmface_ps2tx14.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx14.imd
-- name: raw/menu/jmface_ps2tx15.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx15.imd
-- name: raw/menu/jmface_ps2tx16.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx16.imd
-- name: raw/menu/jmface_ps2tx17.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx17.imd
-- name: raw/menu/jmface_ps2tx18.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx18.imd
-- name: raw/menu/jmface_ps2tx19.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx19.imd
-- name: raw/menu/jmface_ps2tx20.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx20.imd
-- name: raw/menu/jmface_ps2tx21.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx21.imd
-- name: raw/menu/jmface_ps2tx22.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx22.imd
-- name: raw/menu/jmface_ps2tx23.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx23.imd
-- name: raw/menu/jmface_ps2tx24.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx24.imd
-- name: raw/menu/jmface_ps2tx25.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx25.imd
-- name: raw/menu/jmface_ps2tx26.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx26.imd
-- name: raw/menu/jmface_ps2tx27.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx27.imd
-- name: raw/menu/jmface_ps2tx28.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx28.imd
-- name: raw/menu/jmface_ps2tx29.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx29.imd
-- name: raw/menu/jmface_ps2tx30.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx30.imd
-- name: raw/menu/jmface_ps2tx31.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx31.imd
-- name: raw/menu/jmface_ps2tx32.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx32.imd
-- name: raw/menu/jmface_ps2tx33.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx33.imd
-- name: raw/menu/jmface_ps2tx34.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx34.imd
-- name: raw/menu/jmface_ps2tx35.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx35.imd
-- name: raw/menu/jmface_ps2tx36.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx36.imd
-- name: raw/menu/jmface_ps2tx37.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx37.imd
-- name: raw/menu/jmface_ps2tx38.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx38.imd
-- name: raw/menu/jmface_ps2tx39.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx39.imd
-- name: raw/menu/jmface_ps2tx40.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx40.imd
-- name: raw/menu/jmface_ps2tx41.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx41.imd
-- name: raw/menu/jmface_ps2tx42.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx42.imd
-- name: raw/menu/jmface_ps2tx43.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx43.imd
-- name: raw/menu/jmface_ps2tx44.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx44.imd
-- name: raw/menu/jmface_ps2tx45.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx45.imd
-- name: raw/menu/jmface_ps2tx46.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx46.imd
-- name: raw/menu/jmface_ps2tx47.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx47.imd
-- name: raw/menu/jmface_ps2tx48.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx48.imd
-- name: raw/menu/jmface_ps2tx49.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx49.imd
-- name: raw/menu/jmface_ps2tx50.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx50.imd
-- name: raw/menu/jmface_ps2tx51.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx51.imd
-- name: raw/menu/jmface_ps2tx52.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx52.imd
-- name: raw/menu/jmface_ps2tx53.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx53.imd
-- name: raw/menu/jmface_ps2tx54.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx54.imd
-- name: raw/menu/jmface_ps2tx55.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx55.imd
-- name: raw/menu/jmface_ps2tx56.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx56.imd
-- name: raw/menu/jmface_ps2tx57.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx57.imd
-- name: raw/menu/jmface_ps2tx58.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx58.imd
-- name: raw/menu/jmface_ps2tx59.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx59.imd
-- name: raw/menu/jmface_ps2tx60.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx60.imd
-- name: raw/menu/jmface_ps2tx61.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx61.imd
-- name: raw/menu/jmface_ps2tx62.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx62.imd
-- name: raw/menu/jmface_ps2tx63.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx63.imd
-- name: raw/menu/jmface_ps2tx64.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx64.imd
-- name: raw/menu/jmface_ps2tx65.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx65.imd
-- name: raw/menu/jmface_ps2tx66.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx66.imd
-- name: raw/menu/jmface_ps2tx67.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx67.imd
-- name: raw/menu/jmface_ps2tx68.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx68.imd
-- name: raw/menu/jmface_ps2tx69.imd
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/menu/jmface_ps2tx69.imd
 
 # === Heartless Assets === #
 
-- name: raw/obj/V_BB100.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_BB100.a.us
-- name: raw/obj/V_BB100.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_BB100.mdlx
-- name: raw/obj/V_BB100_GM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_BB100_GM.mdlx
-- name: raw/obj/V_BB100_TSURU.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_BB100_TSURU.mdlx
-- name: raw/obj/V_CA000.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_CA000.a.us
-- name: raw/obj/V_CA000.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_CA000.mdlx
-- name: raw/obj/V_CA050.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_CA050.a.us
-- name: raw/obj/V_CA050.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_CA050.mdlx
-- name: raw/obj/V_CA050_GM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_CA050_GM.mdlx
-- name: raw/obj/V_EX010.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX010.a.us
-- name: raw/obj/V_EX010.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX010.mdlx
-- name: raw/obj/V_EX010_NM.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX010_NM.a.us
-- name: raw/obj/V_EX010_NM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX010_NM.mdlx
-- name: raw/obj/V_EX050.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX050.a.us
-- name: raw/obj/V_EX050.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX050.mdlx
-- name: raw/obj/V_EX060.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX060.a.us
-- name: raw/obj/V_EX060.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX060.mdlx
-- name: raw/obj/V_EX200.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX200.a.us
-- name: raw/obj/V_EX200.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX200.mdlx
-- name: raw/obj/V_EX200_NM.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX200_NM.a.us
-- name: raw/obj/V_EX200_NM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX200_NM.mdlx
-- name: raw/obj/V_EX210.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX210.a.us
-- name: raw/obj/V_EX210.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX210.mdlx
-- name: raw/obj/V_EX500.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX500.a.us
-- name: raw/obj/V_EX500.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX500.mdlx
-- name: raw/obj/V_EX500_GM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX500_GM.mdlx
-- name: raw/obj/V_EX500_NM.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX500_NM.a.us
-- name: raw/obj/V_EX500_NM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX500_NM.mdlx
-- name: raw/obj/V_EX510.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX510.a.us
-- name: raw/obj/V_EX510.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX510.mdlx
-- name: raw/obj/V_EX520.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX520.a.us
-- name: raw/obj/V_EX520.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX520.mdlx
-- name: raw/obj/V_EX520_AL.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX520_AL.a.us
-- name: raw/obj/V_EX520_AL.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX520_AL.mdlx
-- name: raw/obj/V_EX530.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX530.a.us
-- name: raw/obj/V_EX530.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX530.mdlx
-- name: raw/obj/V_EX540.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX540.a.us
-- name: raw/obj/V_EX540.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX540.mdlx
-- name: raw/obj/V_EX550.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX550.a.us
-- name: raw/obj/V_EX550.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX550.mdlx
-- name: raw/obj/V_EX560.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX560.a.us
-- name: raw/obj/V_EX560.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX560.mdlx
-- name: raw/obj/V_EX570.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX570.a.us
-- name: raw/obj/V_EX570.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX570.mdlx
-- name: raw/obj/V_EX590.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX590.a.us
-- name: raw/obj/V_EX590.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX590.mdlx
-- name: raw/obj/V_EX620.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX620.a.us
-- name: raw/obj/V_EX620.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX620.mdlx
-- name: raw/obj/V_EX620_AL.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX620_AL.a.us
-- name: raw/obj/V_EX620_AL.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX620_AL.mdlx
-- name: raw/obj/V_EX630.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX630.a.us
-- name: raw/obj/V_EX630.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX630.mdlx
-- name: raw/obj/V_EX640.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX640.a.us
-- name: raw/obj/V_EX640.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX640.mdlx
-- name: raw/obj/V_EX650.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX650.a.us
-- name: raw/obj/V_EX650.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX650.mdlx
-- name: raw/obj/V_EX670.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX670.a.us
-- name: raw/obj/V_EX670.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX670.mdlx
-- name: raw/obj/V_EX690.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX690.a.us
-- name: raw/obj/V_EX690.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX690.mdlx
-- name: raw/obj/V_EX700.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX700.a.us
-- name: raw/obj/V_EX700.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX700.mdlx
-- name: raw/obj/V_EX700_NM.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX700_NM.a.us
-- name: raw/obj/V_EX700_NM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX700_NM.mdlx
-- name: raw/obj/V_EX710.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX710.a.us
-- name: raw/obj/V_EX710.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX710.mdlx
-- name: raw/obj/V_EX720.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX720.a.us
-- name: raw/obj/V_EX720.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX720.mdlx
-- name: raw/obj/V_EX730.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX730.a.us
-- name: raw/obj/V_EX730.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX730.mdlx
-- name: raw/obj/V_EX740.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX740.a.us
-- name: raw/obj/V_EX740.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX740.mdlx
-- name: raw/obj/V_EX750.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX750.a.us
-- name: raw/obj/V_EX750.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX750.mdlx
-- name: raw/obj/V_EX750_NM.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX750_NM.a.us
-- name: raw/obj/V_EX750_NM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX750_NM.mdlx
-- name: raw/obj/V_EX780.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX780.a.us
-- name: raw/obj/V_EX780.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX780.mdlx
-- name: raw/obj/V_EX790.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX790.a.us
-- name: raw/obj/V_EX790.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX790.mdlx
-- name: raw/obj/V_EX790_CHRISTMAS.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX790_CHRISTMAS.a.us
-- name: raw/obj/V_EX790_CHRISTMAS.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX790_CHRISTMAS.mdlx
-- name: raw/obj/V_EX790_CHRISTMAS_NM.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX790_CHRISTMAS_NM.a.us
-- name: raw/obj/V_EX790_CHRISTMAS_NM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX790_CHRISTMAS_NM.mdlx
-- name: raw/obj/V_EX790_GM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX790_GM.mdlx
-- name: raw/obj/V_EX790_HALLOWEEN.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX790_HALLOWEEN.a.us
-- name: raw/obj/V_EX790_HALLOWEEN.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX790_HALLOWEEN.mdlx
-- name: raw/obj/V_EX790_HALLOWEEN_NM.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX790_HALLOWEEN_NM.a.us
-- name: raw/obj/V_EX790_HALLOWEEN_NM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_EX790_HALLOWEEN_NM.mdlx
-- name: raw/obj/V_LK120.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_LK120.a.us
-- name: raw/obj/V_LK120.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_LK120.mdlx
-- name: raw/obj/V_LK120_GM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_LK120_GM.mdlx
-- name: raw/obj/V_MU120.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_MU120.a.us
-- name: raw/obj/V_MU120.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_MU120.mdlx
-- name: raw/obj/V_MU120_GM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_MU120_GM.mdlx
-- name: raw/obj/V_NM100.a.us
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_NM100.a.us
-- name: raw/obj/V_NM100.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_NM100.mdlx
-- name: raw/obj/V_NM100_GM.mdlx
-  method: copy
-  package: kh2_fifth
-  source:
-  - name: raw/obj/V_NM100_GM.mdlx
+- name: msg/us/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: en
+- name: msg/fr/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: fr
+- name: msg/sp/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: sp
+- name: msg/it/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: it
+- name: msg/gr/sys.bar
+  method: binarc
+  source:
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: gr
 
-# === Jiminy Movesets === #
-
-- name: obj/V_BB100_GM_MEMO.mset
+- name: mdl/ACTOR_SORA.mdlx
   method: copy
   package: kh2_fifth
   source:
-  - name: obj/V_BB100_GM_MEMO.mset
-- name: obj/V_CA050_GM_MEMO.mset
+  - name: raw/mdl/ACTOR_SORA.mdlx
+- name: raw/mdl/B_BB100.a.us
   method: copy
   package: kh2_fifth
   source:
-  - name: obj/V_CA050_GM_MEMO.mset
-- name: obj/V_EX500_GM_MEMO.mset
+  - name: raw/mdl/B_BB100.a.us
+- name: raw/mdl/B_BB100.mdlx
   method: copy
   package: kh2_fifth
   source:
-  - name: obj/V_EX500_GM_MEMO.mset
-- name: obj/V_EX790_GM_MEMO.mset
+  - name: raw/mdl/B_BB100.mdlx
+- name: raw/mdl/B_BB100_GM.mdlx
   method: copy
   package: kh2_fifth
   source:
-  - name: obj/V_EX790_GM_MEMO.mset
-- name: obj/V_LK120_GM_MEMO.mset
+  - name: raw/mdl/B_BB100_GM.mdlx
+- name: raw/mdl/B_BB100_TSURU.mdlx
   method: copy
   package: kh2_fifth
   source:
-  - name: obj/V_LK120_GM_MEMO.mset
-- name: obj/V_MU120_GM_MEMO.mset
+  - name: raw/mdl/B_BB100_TSURU.mdlx
+- name: raw/mdl/B_CA000.a.us
   method: copy
   package: kh2_fifth
   source:
-  - name: obj/V_MU120_GM_MEMO.mset
-- name: obj/V_NM100_GM_MEMO.mset
+  - name: raw/mdl/B_CA000.a.us
+- name: raw/mdl/B_CA000.mdlx
   method: copy
   package: kh2_fifth
   source:
-  - name: obj/V_NM100_GM_MEMO.mset
+  - name: raw/mdl/B_CA000.mdlx
+- name: raw/mdl/B_CA050.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/B_CA050.a.us
+- name: raw/mdl/B_CA050.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/B_CA050.mdlx
+- name: raw/mdl/B_CA050_GM.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/B_CA050_GM.mdlx
+- name: raw/mdl/M_EX010.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX010.a.us
+- name: raw/mdl/M_EX010.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX010.mdlx
+- name: raw/mdl/M_EX010_NM.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX010_NM.a.us
+- name: raw/mdl/M_EX010_NM.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX010_NM.mdlx
+- name: raw/mdl/M_EX050.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX050.a.us
+- name: raw/mdl/M_EX050.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX050.mdlx
+- name: raw/mdl/M_EX060.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX060.a.us
+- name: raw/mdl/M_EX060.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX060.mdlx
+- name: raw/mdl/M_EX200.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX200.a.us
+- name: raw/mdl/M_EX200.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX200.mdlx
+- name: raw/mdl/M_EX200_NM.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX200_NM.a.us
+- name: raw/mdl/M_EX200_NM.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX200_NM.mdlx
+- name: raw/mdl/M_EX210.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX210.a.us
+- name: raw/mdl/M_EX210.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX210.mdlx
+- name: raw/mdl/M_EX500.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX500.a.us
+- name: raw/mdl/M_EX500.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX500.mdlx
+- name: raw/mdl/M_EX500_GM.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX500_GM.mdlx
+- name: raw/mdl/M_EX500_NM.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX500_NM.a.us
+- name: raw/mdl/M_EX500_NM.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX500_NM.mdlx
+- name: raw/mdl/M_EX510.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX510.a.us
+- name: raw/mdl/M_EX510.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX510.mdlx
+- name: raw/mdl/M_EX520.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX520.a.us
+- name: raw/mdl/M_EX520.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX520.mdlx
+- name: raw/mdl/M_EX520_AL.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX520_AL.a.us
+- name: raw/mdl/M_EX520_AL.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX520_AL.mdlx
+- name: raw/mdl/M_EX530.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX530.a.us
+- name: raw/mdl/M_EX530.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX530.mdlx
+- name: raw/mdl/M_EX540.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX540.a.us
+- name: raw/mdl/M_EX540.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX540.mdlx
+- name: raw/mdl/M_EX550.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX550.a.us
+- name: raw/mdl/M_EX550.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX550.mdlx
+- name: raw/mdl/M_EX560.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX560.a.us
+- name: raw/mdl/M_EX560.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX560.mdlx
+- name: raw/mdl/M_EX570.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX570.a.us
+- name: raw/mdl/M_EX570.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX570.mdlx
+- name: raw/mdl/M_EX590.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX590.a.us
+- name: raw/mdl/M_EX590.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX590.mdlx
+- name: raw/mdl/M_EX620.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX620.a.us
+- name: raw/mdl/M_EX620.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX620.mdlx
+- name: raw/mdl/M_EX620_AL.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX620_AL.a.us
+- name: raw/mdl/M_EX620_AL.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX620_AL.mdlx
+- name: raw/mdl/M_EX630.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX630.a.us
+- name: raw/mdl/M_EX630.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX630.mdlx
+- name: raw/mdl/M_EX640.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX640.a.us
+- name: raw/mdl/M_EX640.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX640.mdlx
+- name: raw/mdl/M_EX650.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX650.a.us
+- name: raw/mdl/M_EX650.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX650.mdlx
+- name: raw/mdl/M_EX670.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX670.a.us
+- name: raw/mdl/M_EX670.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX670.mdlx
+- name: raw/mdl/M_EX690.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX690.a.us
+- name: raw/mdl/M_EX690.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX690.mdlx
+- name: raw/mdl/M_EX700.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX700.a.us
+- name: raw/mdl/M_EX700.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX700.mdlx
+- name: raw/mdl/M_EX700_NM.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX700_NM.a.us
+- name: raw/mdl/M_EX700_NM.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX700_NM.mdlx
+- name: raw/mdl/M_EX710.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX710.a.us
+- name: raw/mdl/M_EX710.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX710.mdlx
+- name: raw/mdl/M_EX720.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX720.a.us
+- name: raw/mdl/M_EX720.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX720.mdlx
+- name: raw/mdl/M_EX730.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX730.a.us
+- name: raw/mdl/M_EX730.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX730.mdlx
+- name: raw/mdl/M_EX740.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX740.a.us
+- name: raw/mdl/M_EX740.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX740.mdlx
+- name: raw/mdl/M_EX750.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX750.a.us
+- name: raw/mdl/M_EX750.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX750.mdlx
+- name: raw/mdl/M_EX750_NM.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX750_NM.a.us
+- name: raw/mdl/M_EX750_NM.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX750_NM.mdlx
+- name: raw/mdl/M_EX780.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX780.a.us
+- name: raw/mdl/M_EX780.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX780.mdlx
+- name: raw/mdl/M_EX790.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX790.a.us
+- name: raw/mdl/M_EX790.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX790.mdlx
+- name: raw/mdl/M_EX790_CHRISTMAS.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX790_CHRISTMAS.a.us
+- name: raw/mdl/M_EX790_CHRISTMAS.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX790_CHRISTMAS.mdlx
+- name: raw/mdl/M_EX790_CHRISTMAS_NM.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX790_CHRISTMAS_NM.a.us
+- name: raw/mdl/M_EX790_CHRISTMAS_NM.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX790_CHRISTMAS_NM.mdlx
+- name: raw/mdl/M_EX790_GM.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX790_GM.mdlx
+- name: raw/mdl/M_EX790_HALLOWEEN.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX790_HALLOWEEN.a.us
+- name: raw/mdl/M_EX790_HALLOWEEN.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX790_HALLOWEEN.mdlx
+- name: raw/mdl/M_EX790_HALLOWEEN_NM.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX790_HALLOWEEN_NM.a.us
+- name: raw/mdl/M_EX790_HALLOWEEN_NM.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/M_EX790_HALLOWEEN_NM.mdlx
+- name: raw/mdl/B_LK120.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/B_LK120.a.us
+- name: raw/mdl/B_LK120.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/B_LK120.mdlx
+- name: raw/mdl/B_LK120_GM.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/B_LK120_GM.mdlx
+- name: raw/mdl/B_MU120.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/B_MU120.a.us
+- name: raw/mdl/B_MU120.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/B_MU120.mdlx
+- name: raw/mdl/B_MU120_GM.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/B_MU120_GM.mdlx
+- name: raw/mdl/B_NM100.a.us
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/B_NM100.a.us
+- name: raw/mdl/B_NM100.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/B_NM100.mdlx
+- name: raw/mdl/B_NM100_GM.mdlx
+  method: copy
+  package: kh2_fifth
+  source:
+  - name: raw/mdl/B_NM100_GM.mdlx
