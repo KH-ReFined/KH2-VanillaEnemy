@@ -51,26 +51,6 @@ assets:
     - name: msg/sys.yml
       language: gr
 
-- name: obj_2nd/W_EX020_90.mdlx
-  method: copy
-  source:
-  - name: obj_2nd/W_EX020_90.mdlx
-- name: obj_2nd/M_EX740.mdlx
-  method: copy
-  source:
-  - name: obj_2nd/M_EX740.mdlx
-- name: obj_2nd/W_EX020_90_NM.mdlx
-  method: copy
-  source:
-  - name: obj_2nd/W_EX020_90_NM.mdlx
-- name: obj_2nd/W_EX020_90_TR.mdlx
-  method: copy
-  source:
-  - name: obj_2nd/W_EX020_90_TR.mdlx
-- name: obj_2nd/W_EX020_90_WI.mdlx
-  method: copy
-  source:
-  - name: obj_2nd/W_EX020_90_WI.mdlx
 - name: itempic_2nd/item-077.imd
   method: copy
   source:
@@ -383,26 +363,10 @@ assets:
   method: copy
   source:
   - name: obj_2nd/M_EX710.mdlx
-- name: obj_2nd/M_EX710.mdlx/-1.dds
-  method: copy
-  source:
-  - name: obj_2nd/M_EX710.mdlx/-1.dds
-- name: obj_2nd/M_EX710.mdlx/-2.dds
-  method: copy
-  source:
-  - name: obj_2nd/M_EX710.mdlx/-2.dds
 - name: obj_2nd/M_EX720.mdlx
   method: copy
   source:
   - name: obj_2nd/M_EX720.mdlx
-- name: obj_2nd/M_EX720.mdlx/-1.dds
-  method: copy
-  source:
-  - name: obj_2nd/M_EX720.mdlx/-1.dds
-- name: obj_2nd/M_EX720.mdlx/-2.dds
-  method: copy
-  source:
-  - name: obj_2nd/M_EX720.mdlx/-2.dds
 - name: obj_2nd/M_EX730.mdlx
   method: copy
   source:
